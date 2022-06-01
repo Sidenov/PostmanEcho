@@ -18,6 +18,6 @@ class PostmanEcho {
                  // Проверки
                 .then()
                 .statusCode(200)
-                .body("data", equalTo("просто данные"));
+                .body("data", equalTo("некоторые данные"));
     }
 }
